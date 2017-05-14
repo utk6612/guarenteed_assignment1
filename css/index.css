@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+a:selected{
+    text-decoration: none;
+}
+
+.nav-wrapper{
+    background-color:#9684fd; 
+}
+nav{
+    box-shadow: none;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.menuItems{
+    padding:10px 0 10px 10px;
+    text-align: center;
+}
+.menuItems:hover{
+background-color: #9684fd;
+    color:white; 
+}
+.menuItems1:hover{
+background-color: #9684fd;
+    color:white; 
+}
+.smFooter{
+    position: absolute;
+    bottom:90px;
+    width:100%;
+}
+.sideMenu{
+    width:300px;
+}
+
+.cart{
+    display: inline;
+}
+.divCart{
+
+    position:absolute;
+    right:8px;
+}
+.desktopSide{
+    border-right:1px solid gray;
+    height:550px;
+    padding-right:0px;
+}
+
+textarea.materialize-textarea {
+    background-color:white;
+    border-bottom: none;
+}
+
+
+@media only screen and (max-width:768px){
+    .header{
+        background-color:#9684fd;
+        position: static; 
+    }
+    /*.desktopSide{
+    display: none;
+}*/
+}
+
+/*@media only screen and (min-width:769px){
+
+}*/
+    .header{
+        background-color:#9684fd; 
+    }
+
+.imgHolder {
+    position: relative;
+    padding:0px 10px 10px 10px;
+}
+.imgHolder img{
+    position: absolute;
+    left:50%;
+}
+.imgHolder label {
+    position: absolute;
+    top: 18px;
+    left:48%;
+    font-size:9px;
+    color:white;
+}
+
+.slideImage{
+    position:relative;
+}
+
+h5{
+    color: black;
+    position: absolute;
+    bottom:5px;
+    left:0;
+}
+h7{
+    position: absolute;
+    left:30px;
+    color:white;
+    top:10px;
+}
+h4{
+    position: absolute;
+    left:30px;
+    color:white;
+    top:30px;
+}
+h6{
+    text-align: center;
+}
+
+.heading{
+    background-color:#9684fd; 
+}
+.desktopFooter{
+    position: absolute;
+    bottom:0px;
+}
+.carouselDesktop{
+    background-color:whitesmoke;
+}
+.trendingProducts{
+    margin-top:5px;
+}
+.search{
+    padding-left:10px;
+    padding-right:10px;
+}
+.howItWorks{
+    background-color:#9684fd;
+    color:white;
+    margin-top:15px;
+}
+.worksHolder{
+    padding-top:10px;
+    position: relative;
+}
+
+.worksHolder span{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:12px;
+    text-align: center;
+}
+.works{
+    background-color: #f5f5f5;
+}
+.categories{
+    padding-bottom: 10px;
+}
+.sideHeader{
+    position: relative;
+}
+
+.email{
+    position: absolute;
+    right:30px;
+    bottom:30px;
+}
+.sideHeaderDesk{
+    padding:20px;
+}
